@@ -164,13 +164,15 @@ In this lab, you will learn how to perform the following tasks:
       --image-project "debian-cloud"
       --image "debian-9-stretch-v20190213"
       --subnet "default"
-      --tags http```
+      --tags http
 
-    ```gcloud compute firewall-rules create allow-http`
+    gcloud compute firewall-rules create allow-http`
       --action=ALLOW
       --destination=INGRESS
       --rules=http:80
-      --target-tags=http```
+      --target-tags=http
+
+    ```
 
 
 
